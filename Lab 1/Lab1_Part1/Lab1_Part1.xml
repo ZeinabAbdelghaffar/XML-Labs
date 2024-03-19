@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Lab1_Part1.css"?>
+<company>
+    <department name="Management">
+        <employee>
+            <name>Zeinab Abdo</name>
+            <contact>
+                <email>zeinanabdo@gmail.com</email>
+                <phones>
+                    <phone type="home">034840492</phone>
+                    <phone type="mobile">01289939695</phone>
+                </phones>
+            </contact>
+            <address>
+                <street>Mustafa Ismail , elazarita</street>
+                <building_number>12</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+        <employee>
+            <name>Shrouk Ahmed</name>
+            <contact>
+                <email>shroukahmed@gmail.com</email>
+                <phones>
+                    <phone type="work">035036214</phone>
+                    <phone type="mobile">01288888888</phone>
+                </phones>
+            </contact>
+            <address>
+                <street>bitash</street>
+                <building_number>2</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+    </department>
+    <department name="Sales">
+        <employee>
+            <name>Ahmed Hassan</name>
+            <contact>
+                <email>ahmedhassan@gmail.com</email>
+                <phones>
+                    <phone type="work">035036215</phone>
+                    <phone type="mobile">01288888889</phone>
+                </phones>
+            </contact>
+            <address>
+                <street>Alamal</street>
+                <building_number>5</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+    </department>
+    <department name="IT">
+        <employee>
+            <name>Khaled Mohamed</name>
+            <contact>
+                <email>khmohamed@gmail.com</email>
+                <phones>
+                    <phone type="work">035036216</phone>
+                    <phone type="mobile">01288888890</phone>
+                </phones>
+            </contact>
+            <address>
+                <street>ElGash</street>
+                <building_number>15</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+    </department>
+</company>

@@ -1,0 +1,53 @@
+company {
+    display: block;
+    margin: 20px;
+}
+
+department {
+    display: block;
+    margin-bottom: 20px;
+}
+
+employee {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+employee > name {
+    font-weight: bold;
+}
+
+contact,
+address {
+    display: block;
+    margin-top: 5px;
+}
+
+phones {
+    display: block;
+    margin-top: 5px;
+}
+
+phone {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+email {
+    display: block;
+    font-style: italic;
+    color: #666;
+}
+
+address {
+    font-style: italic;
+}
+
+department::before {
+    content: "Department: " attr(name);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}

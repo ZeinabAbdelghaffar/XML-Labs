@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Lab1_Part2.css"?>
+<library>
+    <location>New York Public Library</location>
+    <description>A historic library in New York City, offering a vast collection of books and resources.</description>
+    <librarian>Emily Thompson</librarian>
+    <books>
+        <book>
+            <title>The Great Gatsby</title>
+            <isbn>978-0743273565</isbn>
+            <author>F. Scott Fitzgerald</author>
+            <preface>
+                The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. 
+                This exemplary novel of the Jazz Age has been acclaimed by generations of readers.
+            </preface>
+            <parts>
+                <part>
+                    <title>Main Story</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>A mysterious millionaire, Jay Gatsby, throws extravagant parties in the hopes of rekindling his romance with Daisy Buchanan.</summary>
+                            <sections>
+                                <section>
+                                    <content>Gatsby's lavish parties are the talk of the town, but his motives remain enigmatic.</content>
+                                </section>
+                                <section>
+                                    <content>Nick Carraway, the narrator, becomes entangled in the lives of Gatsby and the Buchanans, leading to tragic consequences.</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                        <chapter>
+                            <title>Chapter 2</title>
+                            <summary>Gatsby's past and his obsession with Daisy are revealed, shedding light on his character.</summary>
+                            <sections>
+                                <section>
+                                    <content>Flashbacks unveil Gatsby's humble origins and his transformation into a wealthy socialite.</content>
+                                </section>
+                                <section>
+                                    <content>Gatsby's single-minded pursuit of Daisy is driven by his desire to relive the past.</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+        <book>
+            <title>To Kill a Mockingbird</title>
+            <isbn>978-0061120084</isbn>
+            <author>Harper Lee</author>
+            <preface>
+                Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred.
+            </preface>
+            <parts>
+                <part>
+                    <title>Main Story</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>Scout Finch, her brother Jem, and their father Atticus are introduced in the town of Maycomb, Alabama.</summary>
+                            <sections>
+                                <section>
+                                    <content>The children befriend Dill Harris and become fascinated with their reclusive neighbor, Boo Radley.</content>
+                                </section>
+                                <section>
+                                    <content>Atticus Finch, a lawyer, defends a black man, Tom Robinson, accused of raping a white woman, facing prejudice and hostility.</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                        <chapter>
+                            <title>Chapter 2</title>
+                            <summary>The trial of Tom Robinson unfolds, revealing the deep-seated racism and injustice in Maycomb.</summary>
+                            <sections>
+                                <section>
+                                    <content>Despite overwhelming evidence of Tom's innocence, the all-white jury convicts him, leading to tragedy.</content>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+            </parts>
+        </book>
+    </books>
+</library>
