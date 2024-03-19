@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Lab1_Part1.css"?>
+<!DOCTYPE employees SYSTEM "Lab2.dtd">
+    <employees>
+        <employee>
+            <name>Zeinab Abdo</name>
+                <email>zeinanabdo@gmail.com</email>
+                <phones>
+                    <phone type="home">034840492</phone>
+                    <phone type="mobile">01289939695</phone>
+                </phones>
+            <address>
+                <street>Mustafa Ismail , elazarita</street>
+                <building_number>12</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+        <employee>
+            <name>Shrouk Ahmed</name>
+                <email>shroukahmed@gmail.com</email>
+                <phones>
+                    <phone type="work">035036214</phone>
+                    <phone type="mobile">01288888888</phone>
+                </phones>
+            <address>
+                <street>bitash</street>
+                <building_number>2</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+        <employee>
+            <name>Ahmed Hassan</name>
+                <email>ahmedhassan@gmail.com</email>
+                <phones>
+                    <phone type="work">035036215</phone>
+                    <phone type="mobile">01288888889</phone>
+                </phones>
+            <address>
+                <street>Alamal</street>
+                <building_number>5</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+        <employee>
+            <name>Khaled Mohamed</name>
+                <email>khmohamed@gmail.com</email>
+                <phones>
+                    <phone type="work">035036216</phone>
+                    <phone type="mobile">01288888890</phone>
+                </phones>
+            <address>
+                <street>ElGash</street>
+                <building_number>15</building_number>
+                <city>Alexandria</city>
+                <region>East</region>
+                <country>Egypt</country>
+            </address>
+        </employee>
+    </employees>
