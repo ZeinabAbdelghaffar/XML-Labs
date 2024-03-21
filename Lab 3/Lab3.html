@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+    <link rel="stylesheet" type="text/css" href="Lab1_Part1.css">
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        // Load the XML data
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var xmlDoc = this.responseXML;
+
+                // Load the XSL stylesheet
+                var xslhttp = new XMLHttpRequest();
+                xslhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        var xslDoc = this.responseXML;
+
+                        // Transform the XML with XSL
+                        var xsltProcessor = new XSLTProcessor();
+                        xsltProcessor.importStylesheet(xslDoc);
+                        var resultDocument = xsltProcessor.transformToFragment(xmlDoc, document);
+
+                        // Display the transformed result
+                        document.getElementById("output").appendChild(resultDocument);
+                    }
+                };
+                xslhttp.open("GET", "Lab3.xsl", true);
+                xslhttp.send();
+            }
+        };
+        xmlhttp.open("GET", "Lab1_Part1.xml", true);
+        xmlhttp.send();
+    </script>
+</body>
+</html>
