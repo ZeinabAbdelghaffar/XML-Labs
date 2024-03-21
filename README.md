@@ -26,6 +26,8 @@ This repository contains labs related to XML processing.
 
 ### Part 2: XSD for Employee
 - Created an XSD (XML Schema Definition) for employee (from Lab1 part1).
+![image](https://github.com/ZeinabAbdelghaffar/XML-Labs/assets/87963230/a8eba470-cf55-4f32-b07a-2223684ef9fb)
+
 ---
 ## Lab 3
 
