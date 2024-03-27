@@ -1,0 +1,86 @@
+library {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+location {
+    font-weight: bold;
+    color: #333;
+}
+
+description {
+    margin-top: 10px;
+    color: #666;
+}
+
+librarian {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+book {
+    display: block;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+title {
+    font-weight: bold;
+}
+
+isbn {
+    color: #666;
+}
+
+author {
+    margin-top: 5px;
+    color: #666;
+}
+
+preface {
+    margin-top: 10px;
+    color: #333;
+}
+
+part {
+    display: block;
+    margin-top: 10px;
+}
+
+chapters {
+    display: block;
+    margin-top: 10px;
+}
+
+chapter {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+summary {
+    margin-top: 5px;
+    font-style: italic;
+    color: #333;
+}
+
+sections {
+    display: block;
+    margin-top: 10px;
+}
+
+section {
+    display: block;
+    margin-top: 5px;
+}
+
+content {
+    margin-top: 5px;
+    color: #666;
+}
